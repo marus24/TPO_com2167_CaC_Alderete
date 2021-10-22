@@ -20,8 +20,6 @@ grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr 1fr;
   }
 
-
-
 .footer{
 color: rgba(247, 242, 235, 0.801);
 width: 100%;
@@ -57,14 +55,14 @@ text-decoration: none;
 text-align: center;
 }
 
-/*.repositorio.card{
+.repositorio.card{
     padding: 1rem;
     width: auto;
-    height: 5vw;*/
+    height: 5vw;
 }
 
 .header{
-    color: rgba(247, 242, 235, 0.801);
+    color: #f7f2ebcc;
     width: 100%;
     height: 25vw;
     padding: 20px;
@@ -84,13 +82,18 @@ text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-
     grid-row-start: 2;
     grid-row-end: 3
 }
 
 h1{
-    text-align: center;
+    margin-top: 1rem;
+    margin-left: 40vw;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: shakeY;
+    animation-duration: 3s;
+
 }
 
 h3{
