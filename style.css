@@ -44,15 +44,6 @@ grid-template-columns: 2fr 1fr;
 grid-template-rows: 1fr;
   }
 
-.banner{
-display: flex;
-align-items: center;
-justify-content: center;
-grid-column-start: 2;
-grid-column-end: -1;
-width: 20vw;
-}
-
 .repositorio{
     width: 80vw;
     display: flex;
@@ -105,7 +96,6 @@ h1{
     width: 95vw;
     margin: 2rem;
     display: inline-block;
-    margin: 0 0.5rem;
     animation: shakeY;
     animation-duration: 3s;
     animation-direction: normal;
@@ -126,7 +116,31 @@ margin: 1rem;
     .repositorio{
         flex-direction: column;
     }
+    h1{
+font-size: 2rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    header{
+        height: 20vw;
+    }
 }
 
 @media (max-width: 768px) {
+    .card{
+        margin-left: 50vw;
+        align-content: center;
+    }
+    .header{
+        height: 20vw;
+    }
+}
+
+
+@media (max-width:992px) {
+
+    .repositorio{
+        width: 80vw;
+    }
 }
