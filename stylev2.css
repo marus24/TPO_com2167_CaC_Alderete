@@ -35,8 +35,8 @@ width: 100vw;
 margin: 2rem;
 padding: 2rem;
 grid-gap: 20px;
-grid-template-columns: 2fr 1fr;
-grid-template-rows: 1fr;
+grid-template-columns: 3fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
   }
 
 .banner{
@@ -45,13 +45,14 @@ align-items: center;
 justify-content: center;
 grid-column-start: 2;
 grid-column-end: -1;
+grid-row-start: 1;
+grid-row-end: -1;
 }
 
-.repositorio-flex{
+.container-flex1{
     width: 75vw;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     padding: 20px;
     row-gap: 2rem;
     grid-column-start: 1;
@@ -60,7 +61,44 @@ grid-column-end: -1;
     grid-row-end: 2;
     }
 
+.container-flex2{
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    row-gap: 2rem;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    }
+.container-flex3{
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    row-gap: 2rem;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    }
+
+.container-flex4{
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    row-gap: 2rem;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    }
+
     .repositorio-flex:nth-child(){
+        display: flex;
+        flex-wrap: wrap;
         width: 20vw;
         height: 20vw;
         padding: 1rem;

@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color:wheat;
+    background-color:#1D202B;
 }
 
 .form{
@@ -13,6 +13,16 @@ height: 30%;
 width: 40%;
 margin-left: 40%;
 padding-top: 2rem;
+color: silver;
+font-weight: bold;
+}
+
+.btn{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    margin: 1%;
+    padding: 1%;
 }
 
 .container_reg{
